@@ -40,27 +40,15 @@ const Mission6 = (num) => {
     return Mission6(num - 1) + Mission6(num - 2)
 }
 
+// console.log( Mission1([-200, -163, -26, -4, 0, 7, 76]))
+// console.log(Mission2('tis is1 a test'))
+// console.log(Mission5(['a', 'b', 'c'], [1, 2, 3]))
+// console.log(Mission6(5))
 
 
-
-
-
-
-
-console.log( Mission1([-200, -163, -26, -4, 0, 7, 76]))
-console.log(Mission2('tis is1 a test'))
-console.log(Mission5(['a', 'b', 'c'], [1, 2, 3]))
-console.log(Mission6(5))
-
-
-
-
-
-
-
-// module.exports = {
-//     Mission1,
-//     Mission2,
-//     Mission5,
-//     Mission6
-// }
+module.exports = {
+    Mission1,
+    Mission2,
+    Mission5,
+    Mission6
+}
